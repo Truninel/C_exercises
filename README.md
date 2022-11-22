@@ -16,3 +16,15 @@ If the amount is more than 1 million yuan, the part exceeding 1 million yuan wil
 Enter the profit I of the current month from the keyboard, and calculate the total bonus to be paid?                                       
 Program analysis: 
 Please use the number axis to divide and locate. Note that the bonus should be defined as double.
+
+Find_PerfectSquareNumber.c             
+Subject: An integer is a perfect square after adding 100, and a perfect square after adding 168. What is the number?                                            
+Program analysis:
+Assume that the number is x.                          
+a. Then: x+100=n*n, x+100+168=m*m                   
+b. Calculation equation: m*m - n*n=(m+n) (m - n)=168                 
+c. Setting: m+n=i, m - n=j, i * j=168, at least one of i and j is even                
+d. It can be obtained that: m=(i+j)/2, n=(i - j)/2, i and j are either even or odd.                            
+e. It can be inferred from c and d that i and j are even numbers greater than or equal to 2.                         
+f. Since i * j=168, j>=2, then 1<i<168/2+1.                         
+g. Next, all the numbers of i are calculated circularly.                   
