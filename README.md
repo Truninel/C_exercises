@@ -28,3 +28,7 @@ d. It can be obtained that: m=(i+j)/2, n=(i - j)/2, i and j are either even or o
 e. It can be inferred from c and d that i and j are even numbers greater than or equal to 2.                         
 f. Since i * j=168, j>=2, then 1<i<168/2+1.                         
 g. Next, all the numbers of i are calculated circularly.                   
+
+determine_DayOfYear.c            
+Subject: Enter the date of the year, and determine the day of the year.    
+Program analysis: Take March 5 as an example, we should first add up the previous two months, and then add five days, that is, the day of the year. Under special circumstances, when the leap year and the input month is greater than 3, we need to consider adding one more day.
