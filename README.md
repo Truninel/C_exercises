@@ -32,3 +32,6 @@ g. Next, all the numbers of i are calculated circularly.
 determine_DayOfYear.c            
 Subject: Enter the date of the year, and determine the day of the year.    
 Program analysis: Take March 5 as an example, we should first add up the previous two months, and then add five days, that is, the day of the year. Under special circumstances, when the leap year and the input month is greater than 3, we need to consider adding one more day.
+
+Topic: Input three integers x, y, z, and output the three numbers from small to large.     
+Program analysis: we try to put the minimum number on x, first compare x with y, if x>y, exchange the values of x and y, then compare x with z, if x>z, exchange the values of x and z, so that x can be minimized.
